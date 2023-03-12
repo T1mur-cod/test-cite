@@ -1,0 +1,281 @@
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table-actions button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.table-actions button:hover {
+  background-color: #0062cc;
+}
+
+.remove-row-button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
+
+.remove-row-button:hover {
+  background-color: #c82333;
+}
+
+.accordion-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion-menu li {
+  margin-bottom: 5px;
+}
+
+.accordion-header a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+}
+
+.accordion-header a:hover {
+  background-color: #e2e2e2;
+}
+
+.accordion-menu ul ul {
+  margin-left: 10px;
+}
+
+.accordion-menu ul ul li {
+  margin-bottom: 0;
+}
+
+.accordion-menu ul ul a {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.search-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+  
+.accordion-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.accordion-header {
+  margin-bottom: 10px;
+}
+  
+.accordion-header > a {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 0;
+}
+  
+.accordion-header > a:hover {
+  color: #007bff;
+}
+  
+.accordion-header > ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+  
+.accordion-header > ul > li > a {
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 0;
+}
+  
+.accordion-header > ul > li > a:hover {
+  color: #007bff;
+}
+  
+.main {
+  flex-grow: 1;
+  padding: 20px;
+}
+  
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+  
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+  
+.table th,
+.table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+  
+.table th {
+  font-weight: bold;
+  text-align: center;
+}
+  
+.table td {
+  text-align: left;
+}
+  
+.table-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+  
+.table-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.add-row-button,
+.send-table-button {
+  padding: 5px 10px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+  }
+  
+.add-row-button:hover,
+.send-table-button:hover {
+  background-color: #0062cc;
+}
+  
+.remove-row-button {
+  padding: 5px 10px;
+  font-size: 15px;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+  cursor: pointer;
+}
+  
+.remove-row-button:hover {
+  background-color: #c82333;
+}
+  
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  font-size: 14px;
+}
+
+.search-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  flex-basis: 300px;
+}
+
+
+/* --- */
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  background-color:  #f2f2f2;;
+}
+
+.search-form input[type="text"] {
+  padding: 3px;
+  border: 1px solid #ccc;
+  /* border-radius: 0px; */
+  font-size: 16px;
+}
+
+.search-form button[type="submit"] {
+  background-color: #0178c6;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  padding: 5px 13px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.search-form button[type="submit"]:hover {
+  background-color: #015ba5;
+}
+
+.table-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
